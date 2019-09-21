@@ -79,23 +79,19 @@
 
 
 
-<meta name="description" content="python的交互查看python标准库中的crypt库的帮助文档help(&amp;#39;crypt&amp;#39;)   利用crypt()函数计算口令hash，稍后编写口令破解机验证 python脚本编写思路 程序分离成两个独立函数main和testpass，方便重用。 mian打开password.txt逐行读入，用户名和口令Hash用 “ : “ 分隔。对每一个hash都调用testpass()函数">
+<meta name="description" content="学习自陈浩的VIM练级攻略https://coolshell.cn/articles/5426.html   常用指令插入指令： i → Insert 模式，按 ESC 回到 Normal 模式.a → 在光标后插入o → 在当前行后插入一个新行自动提示：  和 在 Insert 模式下，你可以输入一个词的开头，然后按 或是，自动补齐功能就出现了……   Normal模式指令：推荐:  hjk">
 <meta property="og:type" content="article">
-<meta property="og:title" content="UNIX口令破解机笔记">
-<meta property="og:url" content="http://yoursite.com/2019/09/19/UNIX口令破解机笔记/index.html">
+<meta property="og:title" content="VIM笔记">
+<meta property="og:url" content="http://yoursite.com/2019/09/19/VIM笔记/index.html">
 <meta property="og:site_name" content="Podm1n`s Blog">
-<meta property="og:description" content="python的交互查看python标准库中的crypt库的帮助文档help(&amp;#39;crypt&amp;#39;)   利用crypt()函数计算口令hash，稍后编写口令破解机验证 python脚本编写思路 程序分离成两个独立函数main和testpass，方便重用。 mian打开password.txt逐行读入，用户名和口令Hash用 “ : “ 分隔。对每一个hash都调用testpass()函数">
+<meta property="og:description" content="学习自陈浩的VIM练级攻略https://coolshell.cn/articles/5426.html   常用指令插入指令： i → Insert 模式，按 ESC 回到 Normal 模式.a → 在光标后插入o → 在当前行后插入一个新行自动提示：  和 在 Insert 模式下，你可以输入一个词的开头，然后按 或是，自动补齐功能就出现了……   Normal模式指令：推荐:  hjk">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/19330413-c286ed64d51d5823.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/19330413-537e1fb78e680b20.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/19330413-6cbee08383cf2da2.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/19330413-1891e4542d4e7e71.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/19330413-4a1350dd51243be2.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2019-09-18T18:06:40.965Z">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/19330413-4b260d3f1514e486.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2019-09-21T11:45:32.382Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="UNIX口令破解机笔记">
-<meta name="twitter:description" content="python的交互查看python标准库中的crypt库的帮助文档help(&amp;#39;crypt&amp;#39;)   利用crypt()函数计算口令hash，稍后编写口令破解机验证 python脚本编写思路 程序分离成两个独立函数main和testpass，方便重用。 mian打开password.txt逐行读入，用户名和口令Hash用 “ : “ 分隔。对每一个hash都调用testpass()函数">
-<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/19330413-c286ed64d51d5823.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta name="twitter:title" content="VIM笔记">
+<meta name="twitter:description" content="学习自陈浩的VIM练级攻略https://coolshell.cn/articles/5426.html   常用指令插入指令： i → Insert 模式，按 ESC 回到 Normal 模式.a → 在光标后插入o → 在当前行后插入一个新行自动提示：  和 在 Insert 模式下，你可以输入一个词的开头，然后按 或是，自动补齐功能就出现了……   Normal模式指令：推荐:  hjk">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/19330413-4b260d3f1514e486.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -125,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/09/19/UNIX口令破解机笔记/">
+  <link rel="canonical" href="http://yoursite.com/2019/09/19/VIM笔记/">
 
 
 
 
 
-  <title>UNIX口令破解机笔记 | Podm1n`s Blog</title>
+  <title>VIM笔记 | Podm1n`s Blog</title>
   
 
 
@@ -268,7 +264,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/19/UNIX口令破解机笔记/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/19/VIM笔记/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="podm1n">
@@ -285,7 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">UNIX口令破解机笔记</h1>
+          <h1 class="post-title" itemprop="name headline">VIM笔记</h1>
         
 
         <div class="post-meta">
@@ -297,7 +293,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-19T01:13:06+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-19T01:12:33+08:00">
                 2019-09-19
               </time>
             
@@ -335,23 +331,102 @@
       
 
       
-        <h2 id="python的交互"><a href="#python的交互" class="headerlink" title="python的交互"></a>python的交互</h2><p>查看python标准库中的crypt库的帮助文档<br><code>help(&#39;crypt&#39;)</code> </p>
-<p><img src="https://upload-images.jianshu.io/upload_images/19330413-c286ed64d51d5823.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="crypt库的帮助文档.PNG"></p>
-<p>利用crypt()函数计算口令hash，稍后编写口令破解机验证<br><img src="https://upload-images.jianshu.io/upload_images/19330413-537e1fb78e680b20.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="crypt()函数计算口令hash.PNG"></p>
-<h2 id="python脚本编写思路"><a href="#python脚本编写思路" class="headerlink" title="python脚本编写思路"></a>python脚本编写思路</h2><ul>
-<li>程序分离成两个独立函数main和testpass，方便重用。</li>
-<li>mian打开password.txt逐行读入，用户名和口令Hash用 “ : “ 分隔。对每一个hash都调用testpass()函数。</li>
-<li>testpass()以参数形式取得hash，将hash前两个字符视为salt，打开dictionary.txt遍历每一个单词，去除“换行符”，和salt加密取得hash并比较；找到或无果则返回。</li>
-</ul>
-<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> crypt</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">testPass</span><span class="params">(cryptPass)</span>:</span></span><br><span class="line">    salt = cryptPass[<span class="number">0</span>:<span class="number">2</span>]</span><br><span class="line"></span><br><span class="line">    dictFile = open(<span class="string">'dictionary.txt'</span>,<span class="string">'r'</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> word <span class="keyword">in</span> dictFile.readlines():</span><br><span class="line">        word = word.strip(<span class="string">"\n"</span>)</span><br><span class="line">        cryptWord = crypt.crypt(word,salt)</span><br><span class="line">        <span class="keyword">if</span> (cryptWord == cryptPass):</span><br><span class="line">            <span class="keyword">print</span> <span class="string">"[+] Found Password: "</span>+word+<span class="string">"\n"</span></span><br><span class="line">            <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">print</span><span class="string">"[-] Password Not Found.\n"</span>+salt+<span class="string">"\n"</span>+cryptWord+<span class="string">"\n"</span></span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span><span class="params">()</span>:</span></span><br><span class="line">    passFile = open(<span class="string">'password.txt'</span>)</span><br><span class="line">    <span class="keyword">for</span> line <span class="keyword">in</span> passFile.readlines():</span><br><span class="line">         <span class="keyword">if</span> <span class="string">":"</span> <span class="keyword">in</span> line:</span><br><span class="line">            user = line.split(<span class="string">':'</span>)[<span class="number">0</span>]</span><br><span class="line">            cryptPass = line.split(<span class="string">':'</span>)[<span class="number">1</span>].strip(<span class="string">' '</span>)</span><br><span class="line">            <span class="keyword">print</span> <span class="string">"[*] Cracking Password For: "</span>+user</span><br><span class="line">            testPass(cryptPass)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
-
-<h3 id="字典和口令文件"><a href="#字典和口令文件" class="headerlink" title="字典和口令文件"></a>字典和口令文件</h3><p><img src="https://upload-images.jianshu.io/upload_images/19330413-6cbee08383cf2da2.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="字典和口令文件.PNG"></p>
-<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><ol>
-<li>无法正确去除字典中的“\n”换行符，导致加密出错。<br><img src="https://upload-images.jianshu.io/upload_images/19330413-1891e4542d4e7e71.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="错误1.PNG"></li>
+        <hr>
+<blockquote>
+<p>学习自陈浩的VIM练级攻略<a href="https://coolshell.cn/articles/5426.html" target="_blank" rel="noopener">https://coolshell.cn/articles/5426.html</a></p>
+</blockquote>
+<hr>
+<h3 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h3><h4 id="插入指令："><a href="#插入指令：" class="headerlink" title="插入指令："></a>插入指令：</h4><blockquote>
+<p>i → Insert 模式，按 ESC 回到 Normal 模式.<br>a → 在光标后插入<br>o → 在当前行后插入一个新行<br>自动提示： <c-n> 和 <c-p><br>在 Insert 模式下，你可以输入一个词的开头，然后按 <c-p>或是<c-n>，自动补齐功能就出现了……</c-n></c-p></c-p></c-n></p>
+</blockquote>
+<hr>
+<h4 id="Normal模式指令："><a href="#Normal模式指令：" class="headerlink" title="Normal模式指令："></a>Normal模式指令：</h4><p>推荐:</p>
+<blockquote>
+<p>hjkl (强例推荐使用其移动光标，但不必需) →你也可以使用光标键 (←↓↑→). 注: j 就像下箭头。<br>:help <command> → 显示相关命令的帮助。你也可以就输入 :help 而不跟命令。（陈皓注：退出帮助需要输入:q）<br><c-r> 相当于ESC</c-r></p>
+</blockquote>
+<p>常用</p>
+<blockquote>
+<p>x → 删当前光标所在的一个字符。<br>:wq → 存盘 + 退出 (:w 存盘, :q 退出)   （陈皓注：:w 后可以跟文件名）<br>dd → 删除当前行，并把删除的行存到剪贴板里<br>p → 粘贴剪贴板</p>
+</blockquote>
+<p>复制粘贴撤销</p>
+<blockquote>
+<p>P → 粘贴<br>yy → 拷贝当前行当行于 ddP<br>u → undo<br><c-r> → redo</c-r></p>
+</blockquote>
+<p>简单的移动光标</p>
+<blockquote>
+<p>0 → 数字零，到行头<br>^ → 到本行第一个不是blank字符的位置（所谓blank字符就是空格，tab，换行，回车等）<br>$ → 到本行行尾<br>g_ → 到本行最后一个不是blank字符的位置。<br>/pattern → 搜索 pattern 的字符串（陈皓注：如果搜索出多个匹配，可按n键到下一个）</p>
+</blockquote>
+<p>打开/保存/退出/改变文件</p>
+<blockquote>
+<p>:e &lt;path/to/file&gt; → 打开一个文件<br>:w → 存盘<br>:saveas &lt;path/to/file&gt; → 另存为 &lt;path/to/file&gt;<br>:x， ZZ 或 :wq → 保存并退出 (:x 表示仅在需要时保存，ZZ不需要输入冒号并回车)<br>:q! → 退出不保存 :qa! 强行退出所有的正在编辑的文件，就算别的文件有更改。<br>:bn 和 :bp → 你可以同时打开很多文件，使用这两个命令来切换下一个或上一个文件。（陈皓注：我喜欢使用:n到下一个文件）</p>
+</blockquote>
+<hr>
+<h3 id="高效指令"><a href="#高效指令" class="headerlink" title="高效指令"></a>高效指令</h3><h5 id="更好"><a href="#更好" class="headerlink" title="更好"></a>更好</h5><p>下面，让我们看一下vim是怎么重复自己的：</p>
+<ol>
+<li><code>.</code> → (小数点) 可以重复上一次的命令</li>
+<li>N<command> → 重复某个命令N次</li>
 </ol>
-<p>解决思路：</p>
-<p>2.手动去除字典里的“\n”换行符，正确的hash却仍然判断为失败。<br><img src="https://upload-images.jianshu.io/upload_images/19330413-4a1350dd51243be2.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="错误2.PNG"></p>
-<p>解决思路：</p>
+<p>下面是一个示例，找开一个文件你可以试试下面的命令：</p>
+<blockquote>
+<ul>
+<li><code>2dd</code> → 删除2行</li>
+<li><code>3p</code> → 粘贴文本3次</li>
+<li><code>100idesu [ESC]</code> → 会写下 “desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu “</li>
+<li><code>.</code> → 重复上一个命令—— 100 “desu “.</li>
+<li><code>3.</code> → 重复 3 次 “desu” (注意：不是 300，你看，VIM多聪明啊).</li>
+</ul>
+</blockquote>
+<h5 id="更强"><a href="#更强" class="headerlink" title="更强"></a>更强</h5><p>你要让你的光标移动更有效率，你一定要了解下面的这些命令，<strong>千万别跳过</strong>。</p>
+<ol>
+<li><p>N<code>G</code> → 到第 N 行 （陈皓注：注意命令中的G是大写的，另我一般使用 : N 到第N行，如 :137 到第137行）</p>
+</li>
+<li><p><code>gg</code> → 到第一行。（陈皓注：相当于1G，或 :1）</p>
+</li>
+<li><p><code>G</code> → 到最后一行。</p>
+</li>
+<li><p>按单词移动：</p>
+<blockquote>
+<ol>
+<li><code>w</code> → 到下一个单词的开头。</li>
+<li><code>e</code> → 到下一个单词的结尾。</li>
+</ol>
+<blockquote>
+<p>如果你认为单词是由默认方式，那么就用小写的e和w。默认上来说，一个单词由字母，数字和下划线组成（陈皓注：程序变量）</p>
+</blockquote>
+<blockquote>
+<p>如果你认为单词是由blank字符分隔符，那么你需要使用大写的E和W。（陈皓注：程序语句）</p>
+</blockquote>
+<p><img src="https://upload-images.jianshu.io/upload_images/19330413-4b260d3f1514e486.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Word moves example"></p>
+</blockquote>
+</li>
+</ol>
+<p>下面，让我来说说最强的光标移动：</p>
+<blockquote>
+<ul>
+<li><code>%</code> : 匹配括号移动，包括 <code>(</code>, <code>{</code>, <code>[</code>. （陈皓注：你需要把光标先移到括号上）</li>
+<li><code>*</code> 和 <code>#</code>:  匹配光标当前所在的单词，移动光标到下一个（或上一个）匹配单词（*是下一个，#是上一个）</li>
+</ul>
+</blockquote>
+<p>相信我，上面这三个命令对程序员来说是相当强大的。</p>
+<h5 id="更快"><a href="#更快" class="headerlink" title="更快"></a>更快</h5><p>你一定要记住光标的移动，因为很多命令都可以和这些移动光标的命令连动。很多命令都可以如下来干：</p>
+<p><code>&lt;start position&gt;&lt;command&gt;&lt;end position&gt;</code></p>
+<p>例如 <code>0y$</code> 命令意味着：</p>
+<ul>
+<li><code>0</code> → 先到行头</li>
+<li><code>y</code> → 从这里开始拷贝</li>
+<li><code>$</code> → 拷贝到本行最后一个字符</li>
+</ul>
+<p>你可可以输入 <code>ye</code>，从当前位置拷贝到本单词的最后一个字符。</p>
+<p>你也可以输入 <code>y2/foo</code> 来拷贝2个 “foo” 之间的字符串。</p>
+<p>还有很多时间并不一定你就一定要按y才会拷贝，下面的命令也会被拷贝：</p>
+<ul>
+<li><code>d</code> (删除 )</li>
+<li><code>v</code> (可视化的选择)</li>
+<li><code>gU</code> (变大写)</li>
+<li><code>gu</code> (变小写)</li>
+<li>等等</li>
+</ul>
+<p>（陈皓注：可视化选择是一个很有意思的命令，你可以先按v，然后移动光标，你就会看到文本被选择，然后，你可能d，也可y，也可以变大写等）</p>
 
       
     </div>
@@ -376,8 +451,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/09/19/VIM笔记/" rel="next" title="VIM笔记">
-                <i class="fa fa-chevron-left"></i> VIM笔记
+              <a href="/2019/09/19/内网渗透笔记/" rel="next" title="内网渗透笔记">
+                <i class="fa fa-chevron-left"></i> 内网渗透笔记
               </a>
             
           </div>
@@ -385,6 +460,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/09/19/UNIX口令破解机笔记/" rel="prev" title="UNIX口令破解机笔记">
+                UNIX口令破解机笔记 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -498,7 +577,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#python的交互"><span class="nav-number">1.</span> <span class="nav-text">python的交互</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python脚本编写思路"><span class="nav-number">2.</span> <span class="nav-text">python脚本编写思路</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#代码"><span class="nav-number">2.1.</span> <span class="nav-text">代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字典和口令文件"><span class="nav-number">2.2.</span> <span class="nav-text">字典和口令文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遇到的问题"><span class="nav-number">2.3.</span> <span class="nav-text">遇到的问题</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用指令"><span class="nav-number">1.</span> <span class="nav-text">常用指令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#插入指令："><span class="nav-number">1.1.</span> <span class="nav-text">插入指令：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Normal模式指令："><span class="nav-number">1.2.</span> <span class="nav-text">Normal模式指令：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#高效指令"><span class="nav-number">2.</span> <span class="nav-text">高效指令</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#更好"><span class="nav-number">2.0.1.</span> <span class="nav-text">更好</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#更强"><span class="nav-number">2.0.2.</span> <span class="nav-text">更强</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#更快"><span class="nav-number">2.0.3.</span> <span class="nav-text">更快</span></a></li></ol></li></ol></div>
             
 
           </div>
